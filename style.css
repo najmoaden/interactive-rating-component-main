@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.round{
+    border-radius: 100%;
+    background-color: hsl(216, 12%, 54%);
+}
+body{
+    height: 100vh;
+}
+
+/* Main */
+.main{
+    font-size: 0.9375rem;
+    max-width: 90rem;
+    padding: 7% 25%;
+    background-color: hsl(216, 12%, 8%);
+    overflow-x: hidden !important;
+}
+.container{
+    width: 19rem;
+    min-height: 19rem;
+    border-radius: 2rem;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+}
+
+/* Ratings Section */
+
+.star{
+    margin-bottom: 1.2rem;
+}
+.title{
+    margin-bottom: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.description, .vote{
+    color:hsl(217, 12%, 63%) ;
+}
+.count{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.vote, .star{
+    padding:0.8rem;
+}
+/* Footer */
+
+#result{
+    display: none;
+    text-align: center;
+}
+
+/* Media Query */
